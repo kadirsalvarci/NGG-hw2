@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: rgba(83, 194, 138, 0.404);
+    background-color: rgba(247, 181, 181, 0.534);
 }
 .container{
     width: 820px;
@@ -24,9 +24,8 @@ body{
    float: left;
    margin: 10px ;
    border: 2px;
-   
-
 }
+
 
 .aboutlogo2{
     width:65%;
@@ -94,7 +93,7 @@ body{
 
 .menu ul li a{
     text-decoration:none ;
-    font-size: 20px; color:aliceblue;
+    font-size: 20px; color:rgb(37, 61, 17);
     display: block;
     text-align: center;
     margin: center;
@@ -126,12 +125,13 @@ background-color: brown;
     width: 820px;
     height: 30px;
     margin: center;
-    margin-bottom: 30px;
+    margin-top: 20px;
     text-align: center;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     text-align: center;
+    color: rgb(37, 61, 17);
 
 
 }
@@ -190,7 +190,7 @@ iframe {
 }
 .Contact{
     width: 820px;
-    height: 600px ;
+    height: 500px ;
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
@@ -205,11 +205,10 @@ iframe {
 	align-items: center;
 	text-align: center;
 
-	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
 .left{
-
+    background-image: url(images/contact_background_form.jpg);
 	background-size: cover;
 	height: 100%;
     text-align:center ;
@@ -241,13 +240,14 @@ h2:after{
 
 .field{
 	width: 100%;
-	border: 2px solid rgba(0, 0, 0, 0);
+	border: 2px solid rgba(104, 150, 108, 0.904);
 	outline: none;
-	background-color: rgba(230, 230, 230, 0.6);
+	background-color: rgba(120, 155, 161, 0.6);
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
-	margin-bottom: 22px;
+	margin-bottom: 12px;
 	transition: .3s;
+    
 }
 
 .field:hover{
@@ -255,23 +255,24 @@ h2:after{
 }
 
 textarea{
-	min-height: 100px;
+	min-height: 80px;
 }
 
 .btn{
-	width: 100%;
+	width: 110%;
 	padding: 0.5rem 1rem;
-	background-color: rgba(201, 111, 111, 0.753);
+	background-color: rgba(190, 91, 91, 0.753);
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
 	outline: none;
 	cursor: pointer;
 	transition: .3s;
+    margin: 0;
 }
 
 .btn:hover{
-    background-color: #da1a4391;
+    background-color: #630d0dbb;
 }
 
 .field:focus{
