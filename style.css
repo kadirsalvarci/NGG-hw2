@@ -1,13 +1,14 @@
 
 
 body{
-    background-color: rgba(247, 181, 181, 0.534);
+    background:url(images/4444.webp);
+    background-size: contain;
+    
 }
 .container{
     width: 820px;
     height: auto;
     margin: 30px auto;
-
 }
 
 .logo {
@@ -34,13 +35,12 @@ body{
     margin: 10px;
     border: 2px;
     text-align: left;
-    
- }
+
+}
  
 .aboutlogo img {
     width: 200px;
     position: absolute;
-   
     margin-top: 10px;
     
 }
@@ -53,7 +53,10 @@ body{
     background-color: aqua;
     background: url(images/1535008903731.jfif) ;
     background-size: contain;
-    border-radius: 10px;
+    background-color: rgba(120, 155, 161, 0.6);
+    border-radius: 7px;
+
+ 
 
 
 }
@@ -63,19 +66,22 @@ body{
     padding-top: 25px;
 
 }
+
 .menu {
     width: 610px; 
     height: 35px;
-    background-color: rgba(104, 48, 48, 0.61);
+    box-shadow:rgb(83, 78, 78) ;
     margin-top: 10px;
     float: left;
-    
+    background-color: rgba(160, 172, 137, 0.74);
+    border-radius: 7px;
 }
 
 .menu ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    border-radius: 10px;
 
 }
 
@@ -86,14 +92,12 @@ body{
     text-align: center;
     margin: 0;
     
-    
-
 }
 
 
 .menu ul li a{
     text-decoration:none ;
-    font-size: 20px; color:rgb(37, 61, 17);
+    font-size: 20px; color:rgb(0, 0, 0);
     display: block;
     text-align: center;
     margin: center;
@@ -103,7 +107,7 @@ body{
 }
 
 .menu ul li a:hover{
-background-color: brown;
+    background-color: rgba(207, 122, 10, 0.801);
 }
 
 .sosial{
@@ -121,6 +125,7 @@ background-color: brown;
     margin: center;
     padding-top: 2px;  
 }
+
 .divhead{
     width: 820px;
     height: 30px;
@@ -132,8 +137,7 @@ background-color: brown;
     font-style: normal;
     text-align: center;
     color: rgb(37, 61, 17);
-
-
+    
 }
 
 
@@ -144,6 +148,8 @@ background-color: brown;
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
+    background-color: rgba(160, 172, 137, 0.74);
+    border-radius: 7px;
    
 }
 
@@ -154,7 +160,9 @@ background-color: brown;
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
-    
+    background-color: rgba(160, 172, 137, 0.74);
+    border-radius: 7px;
+
 }
 
 .food-list ul {
@@ -163,7 +171,7 @@ background-color: brown;
     margin-left:15px ;
 }
 .foodlist ul {
-   width: 30%;
+    width: 30%;
 }
 .Recipes{
     width: 820px;
@@ -171,15 +179,35 @@ background-color: brown;
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
+    background-color: rgba(160, 172, 137, 0.74);
+    border-radius: 7px;
     
 }
 
+.imgcon{
+    width: 32%;
+    height: 80%;
+    margin: 0;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+.imgcon img{
+    width: 75%;
+    height: 50%;
+   
+}
 .youtube{
     width: 820px;
     height: 380px ;
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
+    background-color: rgba(160, 172, 137, 0.74);
+    border-radius: 7px;
     
 }
 
@@ -194,6 +222,9 @@ iframe {
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
+    background-color: rgba(160, 172, 137, 0.74);
+    border-radius: 7px;
+
     
 }
 
@@ -204,6 +235,8 @@ iframe {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+    background-color: rgba(160, 172, 137, 0.74);
+    border-radius: 7px;
 
 }
 
@@ -269,6 +302,7 @@ textarea{
 	cursor: pointer;
 	transition: .3s;
     margin: 0;
+    border-radius: 7px;
 }
 
 .btn:hover{
