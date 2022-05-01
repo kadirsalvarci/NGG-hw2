@@ -1,7 +1,7 @@
 
 
 body{
-    background:url(images/4444.webp);
+    background:url(images/en-son.jpg);
     background-size: contain;
     
 }
@@ -73,7 +73,7 @@ body{
     box-shadow:rgb(83, 78, 78) ;
     margin-top: 10px;
     float: left;
-    background-color: rgba(160, 172, 137, 0.74);
+    background-color: rgba(214, 177, 219, 0.836);
     border-radius: 7px;
 }
 
@@ -97,7 +97,7 @@ body{
 
 .menu ul li a{
     text-decoration:none ;
-    font-size: 20px; color:rgb(0, 0, 0);
+    font-size: 20px; color:rgb(75, 11, 66);
     display: block;
     text-align: center;
     margin: center;
@@ -107,7 +107,7 @@ body{
 }
 
 .menu ul li a:hover{
-    background-color: rgba(207, 122, 10, 0.801);
+    background-color: rgba(91, 22, 121, 0.801);
 }
 
 .sosial{
@@ -136,7 +136,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     text-align: center;
-    color: rgb(37, 61, 17);
+    color: rgb(94, 11, 102);
     
 }
 
@@ -148,7 +148,7 @@ body{
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
-    background-color: rgba(160, 172, 137, 0.74);
+    background-color: rgba(199, 166, 214, 0.322);
     border-radius: 7px;
    
 }
@@ -160,7 +160,7 @@ body{
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
-    background-color: rgba(160, 172, 137, 0.74);
+    background-color: rgba(199, 166, 214, 0.322);
     border-radius: 7px;
 
 }
@@ -179,7 +179,7 @@ body{
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
-    background-color: rgba(160, 172, 137, 0.74);
+    background-color: rgba(199, 166, 214, 0.322);
     border-radius: 7px;
     
 }
@@ -206,7 +206,7 @@ body{
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
-    background-color: rgba(160, 172, 137, 0.74);
+    background-color: rgba(199, 166, 214, 0.322);
     border-radius: 7px;
     
 }
@@ -222,7 +222,7 @@ iframe {
     margin-bottom: 10px;
     margin-top: 10px;
     float: left;
-    background-color: rgba(160, 172, 137, 0.74);
+    background-color: rgba(199, 166, 214, 0.322);
     border-radius: 7px;
 
     
@@ -235,13 +235,13 @@ iframe {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-    background-color: rgba(160, 172, 137, 0.74);
+    background-color: rgba(199, 166, 214, 0.322);
     border-radius: 7px;
 
 }
 
 .left{
-    background-image: url(images/contact_background_form.jpg);
+    background-image: ur);
 	background-size: cover;
 	height: 100%;
     text-align:center ;
@@ -273,9 +273,9 @@ h2:after{
 
 .field{
 	width: 100%;
-	border: 2px solid rgba(104, 150, 108, 0.904);
+	border: 2px solid rgba(233, 218, 233, 0.719);
 	outline: none;
-	background-color: rgba(120, 155, 161, 0.6);
+	background-color: rgba(197, 191, 199, 0.6);
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
 	margin-bottom: 12px;
@@ -294,8 +294,8 @@ textarea{
 .btn{
 	width: 110%;
 	padding: 0.5rem 1rem;
-	background-color: rgba(190, 91, 91, 0.753);
-	color: #fff;
+	background-color: rgba(98, 20, 114, 0.753);
+	color: rgb(238, 223, 237);
 	font-size: 1.1rem;
 	border: none;
 	outline: none;
@@ -310,7 +310,14 @@ textarea{
 }
 
 .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
+    border: 2px solid rgba(196, 110, 207, 0.47);
 
 }
 
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(221, 177, 223);
+    display: block;
+}
+    
