@@ -209,12 +209,15 @@ body{
     background-color: rgba(199, 166, 214, 0.322);
     border-radius: 7px;
     
+    
 }
 
 iframe {
     width: 32%;
     height: 80%;
     margin-left: 3px;
+       
+    
 }
 .Contact{
     width: 820px;
@@ -241,7 +244,7 @@ iframe {
 }
 
 .left{
-    background-image: ur);
+    background-image: ur;
 	background-size: cover;
 	height: 100%;
     text-align:center ;
