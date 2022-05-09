@@ -5,10 +5,66 @@ body{
     background-size: contain;
     
 }
+
+
+.nav-list {
+  box-shadow: 0px 0px 10px ;
+  padding: 1rem 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(192, 117, 199, 0.651);
+  position: relative;
+
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+    
+  }
+.nav-item a img{
+      width: 32px;
+    
+  }
+.nav-item a {
+    text-decoration: none;
+    color: rgb(35, 61, 90);
+    background-size: contain;
+  }
+  
+.nav-item a:hover {
+    color:rgb(57, 40, 73);
+  }
+  
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+  }
+  
+.btn-primary {
+    font-family:sans-serif;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: rgb(230, 195, 224);
+ 
+
+  }
+  
+.btn-primary:hover {
+    background:gray;
+  }
+  
+
+
 .container{
     width: 820px;
     height: auto;
     margin: 30px auto;
+    margin-top: 40px;
 }
 
 .logo {
@@ -63,13 +119,13 @@ body{
 .banner h4{
 
     color: aliceblue;
-    padding-top: 25px;
+    padding-top: 23px;
 
 }
 
 .menu {
     width: 610px; 
-    height: 35px;
+    height: 33px;
     box-shadow:rgb(83, 78, 78) ;
     margin-top: 10px;
     float: left;
@@ -108,14 +164,21 @@ body{
 
 .menu ul li a:hover{
     background-color: rgba(91, 22, 121, 0.801);
+
 }
+
+.menu ul li a:active{
+    background-color: rgba(225, 240, 161, 0.952);
+    
+}
+
 
 .sosial{
     width: 200px;
     height: 40px;
     margin-left: 10px;
     float: left;
-    block-size: 45px;
+    block-size: 43px;
     margin-top: 10px;
     text-align: center;
    
@@ -130,9 +193,9 @@ body{
     width: 820px;
     height: 30px;
     margin: center;
-    margin-top: 20px;
+    margin-top: 0;
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     text-align: center;
@@ -168,7 +231,7 @@ body{
 .food-list ul {
     width: 25%;
     float: left;
-    margin-left:15px ;
+    margin-left:13px ;
 }
 .foodlist ul {
     width: 30%;
@@ -191,7 +254,7 @@ body{
     float: left;
     text-align: justify;
     margin-top: 10px;
-    padding: 5px;
+    padding: 3px;
     font-size: small;
     
 }
@@ -255,7 +318,7 @@ iframe {
     margin-top: 140px;
 }
 .right{
-	padding: 25px 40px;
+	padding: 23px 40px;
   
 }
 
@@ -308,7 +371,7 @@ textarea{
     margin: 0;
     border-radius: 7px;
 }
-
+/*add backround color */
 .btn:hover{
     background-color: #630d0dbb;
 }
@@ -320,8 +383,32 @@ textarea{
 
 footer{
     text-align: center;
-    width: 100%;
+    bottom: 0;
     background-color: rgb(221, 177, 223);
-    display: block;
+    position:relative;
+    width: 100%;
+    left: 0;
+    height:fit-content;
+
 }
-    
+
+footer  a {
+    background-color: rgb(124, 201, 52);
+
+}
+
+
+div .divhead {
+    box-shadow: 1px 1px 3px 3px rgb(148, 130, 148);
+    border-radius: 3px;
+}
+
+div .menu {
+    box-shadow: 1px 1px 3px 3px rgb(148, 130, 148);
+    border-radius: 3px;
+}
+
+div .left hr {
+    box-shadow: 1px 1px 3px 3px rgb(148, 130, 148);
+    border-radius: 3px;
+}
